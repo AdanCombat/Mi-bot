@@ -15,8 +15,14 @@ client.on('ready', () => {
 client.on('messageCreate', message => {
     if (message.author.bot) return;
 
+    // Comando 1
     if (message.content === "!agarroalagordadestarpmientrasmecomounabigmacuwu") {
         message.channel.send("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdThxbGZsaGtsM2Y5Y2Znemx4MDI5Yzd1NDRsOWJvZDVlY2l4MjdsMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Qmo9T5uI089dkyz3Bd/giphy.gif");
+    }
+
+    // Comando 2 (nuevo)
+    if (message.content === "!electronicamentevirginjijijija") {
+        message.channel.send("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDBkZzc4eG02OWduY2lvYWpqYTdvbDZwMWhxdGFzMjY5OGQ3b2xidyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yhp5Vqs7zxdfWGIpzG/giphy.gif");
     }
 });
 
