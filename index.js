@@ -26,6 +26,10 @@ client.on('messageCreate', message => {
     if (message.content === "!sin.aseme...sina.tokiseme?..tawami??sinatoki??seme??PAKALA.SINAPAKALA.OIKEESINA") {
         message.channel.send("https://tenor.com/rWVR2e9pNtV.gif");
     }
+
+    if (message.content === "!patrizenidamange") {
+    message.channel.send("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDcxNzNjZDEwczRwbWszNjNzdGt2YmN6aW5taXpoMXluMnNpMjNmNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mu0yqL1OD926Ovyhxw/giphy.gif");
+    }
 });
 
 // 🔐 TOKEN SEGURO (desde Railway)
